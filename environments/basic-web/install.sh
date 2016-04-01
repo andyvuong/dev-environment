@@ -26,9 +26,21 @@ npm install -g gulp
 echo "Installed node: " $(node -v)
 echo "Installed npm: " $(npm -v)
 
-# update ruby
+# update ruby to the current stable release using the rvm package manager
+# the current stable release is not on the archives
 echo "Updating Ruby ..."
-sudo apt-get install -y ruby1.9.1-dev
+
+# https://rvm.io/rvm/install
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+
+# install RVM stable with ruby
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+# for the sass
+sudo gem install compass
+
+# for jekyll
+sudo gem install bundler
 
 echo "Installation succesful!"
 echo "You should do \"source ~/.profile\" before you continue."

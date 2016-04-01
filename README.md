@@ -2,6 +2,9 @@
 
 This repository serves as guide to setting up a developent environment with Vagrant. It also provides custom vagrantfiles and setup scripts for vagrant instances. To contribute your own development environment setup, please see the contributing section below.
 
+#### Motivation
+Developing locally on multiple projects can clutter your workspace. Collaborating with others on the same project requires the use of the same dependecies in order to ensure a smooth workflow. Vagrant helps solves this by providing an easy provisioning system that keeps your local machine clean and promotes consistency among your developers.
+
 ## Setting up Vagrant
 
 #### Resources
@@ -26,6 +29,10 @@ This repository serves as guide to setting up a developent environment with Vagr
 ```
   config.vm.network "forwarded_port", guest: 3000, host: 3000
 ```
+* Provide a provisioning script (commented out by default)
+```
+config.vm.provision "shell", path: "install.sh"
+```
 
 #### Running
 * vagrant up
@@ -48,6 +55,7 @@ This repository serves as guide to setting up a developent environment with Vagr
 * cd to /vagrant (where the shared folder is)
 * Run your install script with
     * sh install.sh
+    * If you configured your instance to use the Vagrant provisioner, you can skip this step.
 * Run this script on every instance of your environment for and update it regularly to maintain consistency among your developers.
 * Open an editor on your host machine and begin developing!
 
@@ -60,7 +68,7 @@ This repository serves as guide to setting up a developent environment with Vagr
 ## Contributing
 * Add your environment under environments/\<name\>.
 * Include an install.sh script
-* Include a README.md that provides description of your environment, a list of dependencies are your script installs, and the box your script uses. Feel free to add any additional notes.
+* Include a README.md that provides description of your environment, a list of dependencies are your script installs, and the box your script uses. Specify whether or not your vagrantfile is set to automatically provision the vm. Feel free to add any additional notes.
 * See the current environments for a template.
 * Submit a pull request!
 
