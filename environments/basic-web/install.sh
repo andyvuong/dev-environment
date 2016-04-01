@@ -26,6 +26,10 @@ npm install -g gulp
 echo "Installed node: " $(node -v)
 echo "Installed npm: " $(npm -v)
 
+# update ruby
+echo "Updating Ruby ..."
+sudo apt-get install -y ruby1.9.1-dev
+
 echo "Installation succesful!"
 echo "You should do \"source ~/.profile\" before you continue."
 echo "Happy developing!"
