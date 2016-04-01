@@ -40,7 +40,7 @@ This repository serves as guide to setting up a developent environment with Vagr
     * Get all instances by name and UUID
 * VBoxManage list runningvms
     * Get all running instances by name and UUID
-* VBoxManage unregistervm --delete "<name of machine>"
+* VBoxManage unregistervm --delete "\<name of machine>\"
 
 ## Environment Configuration Script & Installing Dependencies
 * Once you complete the setup steps, you can create a setup script install.sh
@@ -58,9 +58,12 @@ This repository serves as guide to setting up a developent environment with Vagr
 * Follow the rest of the setup/install steps.
 
 ## Contributing
-* Add your environment under environments/<name>.
+* Add your environment under environments/\<name\>.
 * Include an install.sh script
 * Include a README.md that provides description of your environment, a list of dependencies are your script installs, and the box your script uses. Feel free to add any additional notes.
 * See the current environments for a template.
 * Submit a pull request!
 
+## About
+Author:
+* Andy Vuong
