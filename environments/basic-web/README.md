@@ -7,7 +7,7 @@ An environment for web development.
 * ubuntu/trusty64 (Official Ubuntu 14.04 LTS)
 
 ### Installed Packages
-* git 
+* git
 * nvm
 * Node (v4.4.2)
 * npm
@@ -17,6 +17,8 @@ An environment for web development.
 * ruby (stable)
 * Compass
 * Bundler
+* MongoDB (mongo-org)
+
 
 ### Forwarded Ports
 * Port: 3000
