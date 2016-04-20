@@ -62,6 +62,7 @@ config.vm.provision "shell", path: "install.sh"
 * cd to /vagrant (where the shared folder is)
 * Run your install script with
     * sh install.sh
+        * You made need to run chmod +x install.sh to change the permissions before running.
     * If you configured your instance to use the Vagrant provisioner, you can skip this step.
 * Run this script on every instance of your environment for and update it regularly to maintain consistency among your developers.
 * Open an editor on your host machine and begin developing!
