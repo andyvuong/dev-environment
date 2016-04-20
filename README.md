@@ -5,6 +5,13 @@ This repository serves as guide to setting up a developent environment with Vagr
 #### Motivation
 Developing locally on multiple projects can clutter your workspace. Collaborating with others on the same project requires the use of the same dependecies in order to ensure a smooth workflow. Vagrant helps solves this by providing an easy provisioning system that keeps your local machine clean and promotes consistency among your developers.
 
+## Environment Listing
+* basic-web
+    * Includes widely used web development tools including Node.js, Sass, Bower, Grunt, etc.
+* mobile
+    * Includes frameworks and tools for both native and hybrid mobile development (in-progress)
+
+
 ## Setting up Vagrant
 
 #### Resources
