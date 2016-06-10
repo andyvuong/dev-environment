@@ -49,6 +49,9 @@ config.vm.provision "shell", path: "install.sh"
 * vagrant halt
     * run from your host
 
+#### Removing
+* Use VirtualBox to remove your VM or run ```vagrant destroy```
+
 #### Managing VMs
 * VBoxManage list vms
     * Get all instances by name and UUID
