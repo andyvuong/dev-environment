@@ -20,7 +20,7 @@ Developing locally on multiple projects can clutter your workspace. Collaboratin
 * https://atlas.hashicorp.com/boxes/search
 
 #### Installing
-* Instal VirtualBox
+* Install VirtualBox
 * Install Vagrant
 
 #### Installing a Box
