@@ -7,9 +7,11 @@ Developing locally on multiple projects can clutter your workspace. Collaboratin
 
 ## Environment Listing
 * basic-web
-    * Includes widely used web development tools including Node.js, Sass, Bower, Grunt, etc.
+   * Includes widely used web development tools including Node.js, Sass, Bower, Grunt, etc.
 * mobile
-    * Includes frameworks and tools for both native and hybrid mobile development (in-progress)
+   * Includes frameworks and tools for both native and hybrid mobile development (in-progress).
+* multi-machine
+   * A simple set-up for configuring multiple VMs.   
 
 
 ## Setting up Vagrant
@@ -82,7 +84,3 @@ config.vm.provision "shell", path: "install.sh"
 * Include a README.md that provides description of your environment, a list of dependencies are your script installs, and the box your script uses. Specify whether or not your vagrantfile is set to automatically provision the vm. Feel free to add any additional notes.
 * See the current environments for a template.
 * Submit a pull request!
-
-## About
-Author:
-* Andy Vuong
