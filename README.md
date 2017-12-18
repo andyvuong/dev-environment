@@ -1,19 +1,19 @@
 # dev-environment
 
-This repository serves as guide to setting up various development environments, most of which currently used Vagrant.It provides custom vagrantfiles and setup scripts for vagrant instances. To contribute your own development environment setup, please see the contributing section below.
+This repository serves as guide to setting up various development environments, most of which currently used Vagrant. It provides custom vagrantfiles and setup scripts for vagrant instances. To contribute your own development environment setup, please see the contributing section below.
 
 ## Environment Listing
 * basic-web
     * Includes widely used web development tools including Node.js, Sass, Bower, Grunt, etc.
-    * Uses Vagrant
+    * Uses Vagrant.
 * mobile
     * Includes frameworks and tools for both native and hybrid mobile development (in-progress)
-    * Uses Vagrant
+    * Uses Vagrant.
 * multi-machine
-    * Deploy multiple VMs via Vagrant
-    * Uses Vagrant
+    * Deploy multiple VMs via Vagrant.
+    * Uses Vagrant.
 * react-babel-webpack
-    * A web dev environment/template for building react applications in ES6. The development and deployment process is made simple via my custom config script
+    * A web dev environment/template for building react applications in ES6. The development and deployment process is made simple via my custom config script.
     * No Vagrant, bare-machine for now.
 
 ## Setting up Vagrant
